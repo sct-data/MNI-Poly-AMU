@@ -1,4 +1,5 @@
 # Spinal levels labels - generated on 2015-03-27
+# Keyword=IndivLabels (Please DO NOT change this line)
 # ID, name, file
 0, spinal level C3, spinal_level_C3.nii.gz
 1, spinal level C4, spinal_level_C4.nii.gz

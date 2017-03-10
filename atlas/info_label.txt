@@ -1,4 +1,6 @@
 # White matter atlas - generated on 2014-12-09
+#
+# Keyword=IndivLabels (Please DO NOT change this line)
 # ID, name, file
 0, left fasciculus gracilis, WMtract__00.nii.gz
 1, left fasciculus cuneatus, WMtract__01.nii.gz
@@ -34,9 +36,17 @@
 31, CSF contour, WMtract__31.nii.gz
 
 # Combined labels
-# ID, name, IDs
+# Keyword=CombinedLabels (Please DO NOT change this line)
+# ID, name, IDgroup
 32, spinal cord, 0:30
 33, white matter, 0:29
 34, dorsal columns, 0,1,15,16
 35, lateral funiculi, 2,3,4,5,6,17,18,19,20,21
 36, ventral funiculi, 7,8,9,10,11,12,13,14,22,23,24,25,26,27,28,29
+
+# Clusters used for the first step of the MAP estimation (for advanced users only)
+# Keyword=MAPLabels (Please DO NOT change this line)
+# Name, IDgroup
+white matter, 0:29
+gray matter, 30
+CSF, 31
